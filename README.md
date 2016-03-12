@@ -68,7 +68,7 @@ https://vast-mesa-46305.herokuapp.com/api/v1/contacts
 ### Body format
 ```
 {
-  "contacts": {
+  "contact": {
     "name":"Felipe",
     "number":"999-9999",
     "carrier_id": 1
