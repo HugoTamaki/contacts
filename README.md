@@ -9,7 +9,9 @@ URL to access: `https://vast-mesa-46305.herokuapp.com/api/v1`
 This api separates contacts through nicknames, so you MUST send a nick name everytime you CREATE or get an INDEX of contacts,
 and beware, the first time you use it, remember it so that you can request the contacts associated to the nickname
 
-## INDEX
+## Contacts
+
+### INDEX
 
 ### URL
 ```
@@ -92,3 +94,15 @@ https://vast-mesa-46305.herokuapp.com/api/v1/contacts/1
 
 It responds with deleted contact
 
+## Carriers
+
+### INDEX
+
+### URL
+```
+https://vast-mesa-46305.herokuapp.com/api/v1/carriers
+```
+
+### Response
+
+It responds with carriers
