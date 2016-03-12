@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do
       resources :contacts
+      resources :carriers
     end
   end
   # The priority is based upon order of creation: first created -> highest priority.
